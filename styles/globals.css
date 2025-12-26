@@ -21,13 +21,14 @@ h6,
 p,
 ul,
 ol,
-li {
+li,
+figure {
   margin: 0;
   padding: 0;
 }
 
 a {
-  color: inherit;
+  color: inherit; /*наследование от родительского класса*/
 }
 
 button,
